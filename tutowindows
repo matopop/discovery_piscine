@@ -1,0 +1,5 @@
+Pour coder depuis son pc :
+Installer wsl sur son pc, installer ohmyzsh (tout se fait depuis l'invite de cmd)
+ou alors installer visual studio code et chercher l'extension wsl, faire terminal,new terminal et ecrire wsl.
+
+sinon, installer ubuntu sur son pc / installer une machine virtuelle et installer wsl et zsh ainsi que ohmyzsh.
