@@ -1,0 +1,13 @@
+table
+{
+    border: 1px solid;
+}
+th, td /* Toutes les cellules du tableau */
+{
+    border: 1px solid; /* auront une bordure de 1px */
+}
+
+.pasDeBordure
+{
+    border-color:transparent;
+}

@@ -1,0 +1,62 @@
+body
+{
+background-color: pink;
+}
+
+.titre
+{
+    text-align: center;
+}
+.sous-titre
+{
+    text-align: center;
+}
+.myfont
+{
+   font-family: fantasy;
+   color: #6200ff;
+}
+
+
+
+.mina
+{
+  max-width: 70%;
+  border-radius: 50%;
+  display:block;
+  margin: auto;
+  border-style:dotted;
+  border-color:white;
+}
+
+#bloc
+{
+  display: flex;
+}
+
+.bodyrose
+{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(255, 0, 221);
+  padding: 20px;
+  flex: 1;
+}
+
+.violet
+{
+  width:auto;
+  height:200px;
+  background-color: rgb(162,0,255);
+  padding:20px;
+  flex: 1;
+}
+
+#footerclass
+{
+  width:auto;
+  height:100px;
+  text-align: center;
+  background-color:#00ff9d;
+
+}

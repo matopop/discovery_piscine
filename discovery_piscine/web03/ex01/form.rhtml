@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="user_nom">
+        </div>
+        <div>
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="user_prenom">
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer vos informations</button>
+        </div>
+
+    </form>
+    <H1>TITLE</H1>
+    <hr>
+    <%=
+      if servlet_request.query['way'] == "forward"
+        "Hello"
+      else
+        "olleH"
+      end
+
+      %>
+    <hr />
+      <h4>la fin</h4>
+    
+</body>
+</html>

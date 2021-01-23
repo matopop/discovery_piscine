@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <%= form_for student do |f| %>
+  Prenom : <% f.text_field :prenom %> <br>
+  Nom : <% f.text_field :nom %> <br>
+  <%= f.submit%>
+<% end %>
+
+</body>
+</html>

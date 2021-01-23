@@ -1,0 +1,24 @@
+body
+{
+background-color: pink;
+}
+
+.titre
+{
+    text-align: center
+}
+.sous-titre
+{
+    text-align: center
+}
+.myfont
+{
+   font-family: fantasy;
+   color: #00ff00;
+}
+
+.trump
+{
+   max-width: 70%;
+   img-align: center
+}
