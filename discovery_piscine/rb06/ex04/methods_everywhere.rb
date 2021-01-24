@@ -21,3 +21,5 @@ elsif entree.size == 8
 elsif entree.size == 0
   puts "none"
 end
+
+# Ne fonctionne pas entierement. Dernier jour de discovery_piscine, bye :) ! that was fun
